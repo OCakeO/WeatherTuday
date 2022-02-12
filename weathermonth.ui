@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>weatherMonth</class>
+ <widget class="QWidget" name="weatherMonth">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>240</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="gust">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>170</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Давление</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="temp_max">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>30</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Температура С</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="feels_like">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>30</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="temp_min">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>30</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="all">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>170</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>10</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Минимальная температура С</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>80</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Влажность %</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>150</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Облачность %</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>10</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Максимальная температура С </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Градус ветра</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>150</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Порывы ветра м/с</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="temp">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="deg">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>170</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Скорость ветра м/с</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ощущается как С</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="humidity">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="speed">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="pressure">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>104</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
